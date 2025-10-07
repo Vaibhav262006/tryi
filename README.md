@@ -18,3 +18,23 @@ this simply means that on local machine we are one commit ahead as compared to o
 in changes ko system me to krdiya per inko github pe dikhane ke liye humko dusri command type krni hogi
 git push originn main
 push command se dhakka deke local repo ke content ko remote repo me fekte hai
+
+
+INIT command 
+init-used to create a new git repo
+
+local machine pe hi repo bananne ke liye hai ye method
+pehle iss folder se bahar aao cd.. krke
+fir uske baad mkdir localrepo folder banao
+fir cd localrepo me jaao  ls -a se check krkste hai ki yeh abhi repo hai ya nahi agr ls-a krne se . .. or .git folder dikaye to repo hai agr nahi to nahi hai 
+
+fir git init dabao  -- Initialized empty Git repository in --- ye likha hua aayega or in ke baad file destination likhi hoti hai privacy ki wajah se yaha e hide kardi 
+U matlab untracked hai
+
+ab hamne files banadi add or commit  bhi krli ab isko repo me dalne ke liye 
+github me jake new repo banao readme.md to uncheck krdenge kyuki usko add kiya toh pehle iss new repo ko system me lana padega faltu paccchda kon lera 
+ab git remote add origin<-link>  ye command type krenge 
+ye remote humri remote repo hai or naam iska origin rkhre hai
+ab origin set hogaya, kya set hua vo check krne ke liye git remote -v us krskte hai
+git branch  --- humko check krke bataegi hum konsi branch me hai
+git branch -M main -- used to rename a branch in github
